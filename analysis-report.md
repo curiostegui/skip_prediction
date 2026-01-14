@@ -66,7 +66,7 @@ Looking at correlations among the features, Energy and Loudness have a strong po
 
 ## Preprocessing 
 
-- **Missing Information:** Given the volume of multi-lingual tracks (English, Spanish, Portuguese) and instrumental tracks, it was difficult to find the audio features, genres, and lyrics to all the songs in the dataset. Due sparsity of information available, songs that were missing lyrics, or any audio feature were excluded from the training set. This filter process would result in a 58% percent reduction, dropping the total count from 174,400 to about 73,800 rows. 
+- **Missing Information:** Given the volume of multi-lingual tracks (English, Spanish, Portuguese) and instrumental tracks, it was difficult to find the audio features, genres, and lyrics to all the songs in the dataset. Due to sparsity of information available, songs that were missing lyrics, or any audio feature were excluded from the training set. This filter process would result in a 58% percent reduction. 
 
 - **Clean Text:**
 - **Scraping:**
