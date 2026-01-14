@@ -5,7 +5,7 @@ Streaming platforms rely on their algorithms to compete for listeners' attention
 
 Spotify's algorithm uses a hybrid mix of collaborative filtering and content-based filtering to curate user's listening experience. They'll present content that users with similar tastes consume, and examine a user’s own granular preferences based on audio features. A feature that is not frequently explored is the semantic content within the songs themselves.
 
-For this study, I will develop and evaluate thee prediction models - Elastic Net Logistic Regression, XGBoost, and LSTM - to determine the effect that semantic content has on skip prediction accuracy. There will be two variants of each model, one that contains song lyrics and one that includes only audio metadata. Additionally, I will examine the features that best predict skip patterns, as well as how the order of tracks affects this. Below are the results.
+For this study, I will develop and evaluate thee prediction models - Elastic Net Logistic Regression, XGBoost, and LSTM - to determine the effect that semantic content has on skip prediction accuracy. I will examine the features that best predict skip patterns, as well as how the order of tracks affects this. Below are the results.
  
 ## Methodology
 
