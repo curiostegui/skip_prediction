@@ -67,8 +67,7 @@ Looking at correlations among the features, Energy and Loudness have a strong po
 ## Preprocessing 
 
 - **Missing Information:** Given the volume of multi-lingual tracks (English, Spanish, Portuguese) and instrumental tracks, it was difficult to find the audio features, genres, and lyrics to all the songs in the dataset. Due to sparsity of information available, songs that were missing lyrics, or any audio feature were excluded from the training set. This filter process would result in a 58% percent reduction. 
-
-- **Clean Text:**
+- **Clean Text:** I created and implemented functions to fix mojibake characters and remove accents. This helped standardize words and lyrics and avoid errors in artist name matching when web scraping.
 - **Scraping:**
 - **NLP:**
  - ggfgf
