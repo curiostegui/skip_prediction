@@ -94,7 +94,7 @@ Looking at correlations among the features, Energy and Loudness have a strong po
 
 **Model Performance**
 
-[Insert Picture]
+![](images/model-performance.png)<!-- -->
 
 The inclusion of lyrics made marginal improvements at best across models. 
 - The Elastic Net model showed improvements in accuracy (+2.65%), precision (+3%), and F1-score (+0.01%).
@@ -106,7 +106,7 @@ Overall, the XGBoost models had the highest performance across both feature sets
 
 **Feature Importance - XGBoost**
 
-[Insert Picture]
+![](images/feature-importance.png)<!-- -->
 
 In the XGBoost model, 9 out of 15 important features are genre tags. This tell us that genre is the most important predictor of skip behavior.
 - There is a strong theme of latin music (latin pop, trap latino, etc.) that rank high in importance.
