@@ -42,23 +42,23 @@ The listening history dataset contains over 174,400+ rows and 30 columns of data
 
 ## Data Exploration
 
-[Enter Picture]
+![](images/listen-vs-skip.png)<!-- -->
 
 There is a significant class imbalance, which can pose problems. If this isn’t addressed, the model will be better at predicting listens than skips. I’ll need to use a custom weight to penalize the model for misclassifying a skip. This will cause the model to work harder to learn patterns that separate skips from listens.
 
-[Enter Picture[
+![](images/skip-time-day.png)<!-- -->
 
 Both the number of songs played and the number of skips significantly increase after morning time. This suggests possible listening fatigue or changes in music preferences throughout the day.
 
 I also noticed that I’m more satisfied with my listening choices in the morning (30.4%), while I’m most selective at night (38.3%)
 
-[Enter Picture]
+![](images/listened-vs-skipped-genres.png)<!-- -->
 
 There is a large representation of Urbano Latino, Trap Latino, and Reggaeton on both listens and skips. They are played more often than skipped.
 
 For genres like Pop, R&B, Rap, and Hip Hop, their skip rates are higher than their listen rate, showing greater selectivity.
 
-[Enter Picture]
+![](images/corr-matrix.png)<!-- -->
 
 Popularity has a weak positive correlation (+0.17) with skipping. Which means that this listening profile is one that leans towards deeper cuts or less popular tracks. It is the strongest correlation. Overall however, all correlations are weak.
 
