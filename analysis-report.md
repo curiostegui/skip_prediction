@@ -38,7 +38,6 @@ Audio features include information on genre, wether track is explicit, tempo, en
 
 ![](images/overview.png)<!-- -->
 
-
 The listening history dataset contains over 174,400+ rows and 30 columns of data. Our target variable is “skipped”, which indicates if a track was skipped. A “True” value indicates a skip event, while “False” indicates a listening event.
 
 ## Data Exploration
