@@ -196,6 +196,25 @@ Insight: Mix up the energy of the listening session after 2 low energy songs.
 
 ## Recommendations
 
+**For Streaming Platforms**
+- Use sequence models to look at in-session health. Observe for energy changes, times and genre redundancy. Inject palette cleanser when skip behavior observed.
+- For algorithmic models, lyrics should be utilized in niche cases like semantic theme detection for curated playlists.
+
+**For Artists and Labels**
+- Prioritize lyric authenticity over crossover appeal. Reggaeton songs that feature authentic culteral slang (perreo,tamo), were less likely to be skipped.
+- Schedule new singles on days and times were users are most likely to start fresh sessions such as Monday mornings over Friday afternoons  
+
+**For Users**
+- In summary breakdowns like Wrapped from Spotify, consider including skip behavior around genres, periods of the day and lyrics. The summary should also provide listening recommendations.
+- An idea for a feature could be activity tagging during a listening session. This can help add time-of-day context and reduce listening mismatches.
+
+**For Data team**
+- Reserve LSTM for temporal analysis over prediction tasks. LSTM had the lowest accuracy (40%, 46%) but provided useful session specific context.
+- Tree based models like XGBoost capture audio interactions well, and are great for feature importance and feature selection. They had the highest accuracy (67%) compared to Elastic Net (61%) and LSTM models (46%).
+  
+
 ## Limitations
 
-
+- **Lack of generability:** This dataset is from my own listening history and so it's difficult to generalize these results. Some of the patterns and listening behavior observed are likely unique to me.
+- **Data loss:** THe removal of close to 60% of the data fragmented the full listening history and dramatically reduced the listening sessions analyzed through the LSTM models. This may have introduced some bias of specific artists or time periods.
+- **Genre Imputation Flaws:** A lot of the general manual assignments of genre data was done through the Genius website and my personal knowledge. There may have been misclassified genre assignments as a result.
