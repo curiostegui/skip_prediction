@@ -138,48 +138,41 @@ Lyric + Audio LSTM:
  
 ![](images/first-LSTM.png)<!-- -->
 
-Pattern 1 - Possible Semantic Fatigue
+Pattern 1 - Sharp Mood Drop
 
-In this session from the audio & lyric model, we can see a low energy and tempo session that gradually increases all the way to song E. 
+- Loudness is stable (-0.94 to 0.33) until skip song plummets to -3.56.
+- Valence (Mood/Emotion) remains negative throughout, with Song 3 dipping to -1.59, then the skipped song hits -2.11.
 
-Outside of energy and tempo and decline, it’s difficult to find a standout pattern.
-It’s possible there is some underlying semantic fatigue that needs investigation.
-
-Insight: Lyrical content may not always improve predictive accuracy but can provide important context and nuance that audio features alone can’t distinguish.
+The R&B to Rap transition, along with the extreme drop in loudness/valence, changed the mood and overall vibe, causing a skip. Lyrics may have reinforced the genre mismatch signal.
 
 Audio-Only LSTM:
 
 ![](images/second-LSTM.png)<!-- -->
 
-Pattern 2 - Genre Fatigue
+Pattern 2 - Genre Mismatch
 
-In this 2pm listening sequence, we see that:
-- After 3 consecutive reggaeton tracks (songs 2,3,4) and a switch to a non-reggaeton track (song E), a skip action occurs.
-- It’s likely that genre fatigue took place even with variety in energy and tempo. Genre diversity in this context, mattered more than audio quality.
+- Valence drops sharply on Song 3 (-0.92) when Rap interrupts, then partially recovers
+- Skip song is "Other" genre — outside your typical Latin preferences
 
-Insight: After 3 consecutive tracks from reggaeton, insert a different listening palette.
+There is a skip observed when there is a disruption in the UrbanLatino/Rap session. The drop in valence (Mood) and positive shift may have also disrupted the flow.
 
 ![](images/third-LSTM.png)<!-- -->
 
-Pattern 3 - Inconsistent Vibe
+Pattern 3 - Mood inconsistency
 
-This 2am listening session lacks consistency in genre, and energy. 
-- Genre goes from reggaeton to other to reggaeton to other to reggaeton
-- Energy starts low (-0.65) to high (0.46) to low (-.75) to mid (0.13) to low (-0.76)
+- Valence starts very low (-1.44), then rises steadily through Songs 2-4 (0.08 → 1.39 → 1.64)
+- Loudness peaks at Song 2 (1.38), then declines toward the skip song (-0.53)
 
-Insight: Given that it’s a late night session, some consistency is needed. Commit to a genre for 2-3 songs.
+The whiplash from negative valence to positive and then back to negative may have led to the skips. The session built toward increasingly happy/positive songs, but song 5 broke the emotional momentum with a sharp valence drop. There is also a decline in loudness starting after song 3.
 
 ![](images/fourth-LSTM.png)<!-- -->
 
-Pattern 4 - Energy is Key
+Pattern 4 - Genre Interruption
 
-Energy starts moderate (0.25, 0.44) but then declines sharply forms song 3 (-0.45) to song 4 (-1.62)
+- Valence rises dramatically across the session (-1.83 → -1.44 → 0.08 → 1.39 → 1.64)
+- Popularity gradually decreases (0.86 → 0.66 → 0.76 → 0.51) until skip song spikes to 1.00
 
-- Tempo also declines throughout the session (-0.24 to -0.60 to -0.77 to -1.56)
-- Despite switching to a high energy (0.90) and high tempo (0.92) on Song E, it leads to a change in song.
-
-
-Insight: Mix up the energy of the listening session after 2 low energy songs.
+Genre consistency was broken. After 4 Urbano Latino songs with rising valence, the Colombian Pop song — despite high popularity (1.00) and valence (1.64) — felt like an unwanted shift.
 
 **Summary of XGBoost & Elastic Net Results**
 - XGBoost identified genre as the strongest predictor of skip behavior,with 9 of the 15 top features being genre tags. 
