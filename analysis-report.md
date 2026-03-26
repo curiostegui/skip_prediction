@@ -145,8 +145,6 @@ Pattern 1 - Sharp Mood Drop
 
 The R&B to Rap transition, along with the extreme drop in loudness/valence, changed the mood and overall vibe, causing a skip. Lyrics may have reinforced the genre mismatch signal.
 
-Audio-Only LSTM:
-
 ![](images/second-LSTM.png)<!-- -->
 
 Pattern 2 - Genre Mismatch
@@ -156,7 +154,11 @@ Pattern 2 - Genre Mismatch
 
 There is a skip observed when there is a disruption in the UrbanLatino/Rap session. The drop in valence (Mood) and positive shift may have also disrupted the flow.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![](images/third-LSTM.png)<!-- -->
+
+Audio-Only LSTM:
 
 Pattern 3 - Mood inconsistency
 
