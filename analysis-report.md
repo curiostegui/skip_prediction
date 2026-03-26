@@ -132,7 +132,7 @@ Lyric Nuance:
 
 **Listen Patterns - LSTM**
  
- Below we'll observe 5 song listening sequences in both LSTM (with Lyrics and without them) to examine changes in the 5 key features it deems important (Reggaeton Genre Tag, Energy, Tempo, Hour, and Explicit).
+ Below we'll observe 4 song listening sequences in both LSTM (with Lyrics and without them) to examine changes in the 5 key features it deems important (Reggaeton Genre Tag, Energy, Tempo, Hour, and Explicit).
 
 Lyric + Audio LSTM:
  
