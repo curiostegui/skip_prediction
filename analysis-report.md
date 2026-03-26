@@ -132,7 +132,16 @@ Lyric Nuance:
 
 **Listen Patterns - LSTM**
  
- Below we'll observe 4 song listening sequences in both LSTM (with Lyrics and without them) to examine changes in the 5 key features it deems important (Reggaeton Genre Tag, Energy, Tempo, Hour, and Explicit).
+Below we'll observe 4 song listening sequences in both LSTM (with Lyrics and without them) to examine changes in the 5 key features it deems important (Reggaeton Genre Tag, Energy, Tempo, Hour, and Explicit).
+
+Note: The numeric features (Popularity, Loudness, Speechiness, and Valence) are displayed as z-scores — standardized values that show how far each song deviates from my overall listening average. A value of 0 represents my average, positive values indicate above-average intensity, and negative values indicate below-average intensity. For example, a Popularity of 1.55 means that song is 1.55 standard deviations more popular than my typical track, while a Valence of -2.11 indicates a much darker/sadder mood than usual.
+
+| Feature | Positive Values Mean | Negative Values Mean |
+|:-------:|:--------------------:|:--------------------:|
+| Popularity | More popular than average | Less popular than average |
+| Loudness | Louder than average | Quieter than average |
+| Speechiness | More spoken words/rap | More instrumental/melodic |
+| Valence | Happier, upbeat mood | Darker, sadder mood |
 
 Lyric + Audio LSTM:
  
