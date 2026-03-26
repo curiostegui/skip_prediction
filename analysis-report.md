@@ -185,9 +185,9 @@ Genre consistency was broken. After 4 Urbano Latino songs with rising valence, t
 
 **Summary of LSTM Results**
 - Analysis of lyrics adds nuance to skip prediction.
-- After 3 songs of the same genre, switch to another palette.
-- Consistency in audio choice is important during late night listening sessions.
-- Switch up the vibe after 2 low energy tracks.
+- Gwnre consistency is a strong skip predictor.
+- Emotional momentum matters; Sudden whiplashes hurt experience.
+- Extreme audio outliers triggers skips.
 
 ## Recommendations
 
