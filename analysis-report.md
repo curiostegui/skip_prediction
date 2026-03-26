@@ -156,9 +156,9 @@ There is a skip observed when there is a disruption in the UrbanLatino/Rap sessi
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![](images/third-LSTM.png)<!-- -->
-
 Audio-Only LSTM:
+
+![](images/third-LSTM.png)<!-- -->
 
 Pattern 3 - Mood inconsistency
 
