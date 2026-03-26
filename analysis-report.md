@@ -149,7 +149,7 @@ Insight: Lyrical content may not always improve predictive accuracy but can prov
 
 Audio-Only LSTM:
 
-![](images/lstm-2.png)<!-- -->
+![](images/second-LSTM.png)<!-- -->
 
 Pattern 2 - Genre Fatigue
 
@@ -159,7 +159,7 @@ In this 2pm listening sequence, we see that:
 
 Insight: After 3 consecutive tracks from reggaeton, insert a different listening palette.
 
-![](images/lstm-3.png)<!-- -->
+![](images/third-LSTM.png)<!-- -->
 
 Pattern 3 - Inconsistent Vibe
 
@@ -169,7 +169,7 @@ This 2am listening session lacks consistency in genre, and energy.
 
 Insight: Given that it’s a late night session, some consistency is needed. Commit to a genre for 2-3 songs.
 
-![](images/lstm-4.png)<!-- -->
+![](images/fourth-LSTM.png)<!-- -->
 
 Pattern 4 - Energy is Key
 
