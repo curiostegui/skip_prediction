@@ -132,7 +132,6 @@ Lyric Nuance:
 
 **Listen Patterns - LSTM**
 
-Lyric + Audio LSTM:
  
 Below we'll observe 4 song listening sequences in both LSTM (with Lyrics and without them) to examine changes in the 5 key features it deems important (Reggaeton Genre Tag, Energy, Tempo, Hour, and Explicit).
 
@@ -144,6 +143,10 @@ Note: The numeric features (Popularity, Loudness, Speechiness, and Valence) are 
 | Loudness | Louder than average | Quieter than average |
 | Speechiness | More spoken words/rap | More instrumental/melodic |
 | Valence | Happier, upbeat mood | Darker, sadder mood |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lyric + Audio LSTM:
  
 ![](images/first-LSTM.png)<!-- -->
 
