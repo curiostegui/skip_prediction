@@ -136,7 +136,7 @@ Lyric Nuance:
 
 Lyric + Audio LSTM:
  
-![](images/lstm-1.png)<!-- -->
+![](images/first-LSTM.png)<!-- -->
 
 Pattern 1 - Possible Semantic Fatigue
 
