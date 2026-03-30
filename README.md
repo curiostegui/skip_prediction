@@ -29,7 +29,9 @@ This project analyzes whether song lyrics have predictive power in determining i
 
  ## Impact
  Analyzed my personal skip behavior and delivered general insights on how to keep users engaged on streaming platforms, and how data teams can better capture listeners’ interests through the algorithm.
- 
- #### Keywords:  Python, Tableau, Natural Language Processing (NLP), XGBoost, Elastic Net Logistic Regression, Neural Networks, LSTM, Recurrent Neural Network (RNN), Sequence Modeling, Data Visualization, Streaming Services
 
+#### Keywords: 
+Python, Tableau, Natural Language Processing (NLP), XGBoost, Elastic Net Logistic Regression, Neural Networks, LSTM, Recurrent Neural Network (RNN), Sequence Modeling, Data Visualization, Streaming Services
+ 
+ 
  
