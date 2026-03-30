@@ -2,9 +2,9 @@
 
 This project analyzes whether song lyrics have predictive power in determining if a listener will skip or complete a track. Using my listening data from Spotify, machine learning models were built and compared with two distinct features: One that uses audio characteristics alone (tempo, valence, energy, etc. and another containing and audio and lyric data.
 
-For the full report [click here](https://github.com/curiostegui/Instacart-customer-segmentation-analysis/blob/main/analysis-report.md) 
+For the full report [click here](https://github.com/curiostegui/skip_prediction/blob/main/analysis-report.md)
 
-To access the Tableau dashboard [click here](https://public.tableau.com/views/Instacart_Dashboard/ExecutiveSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
+To access the Tableau dashboard [click here](https://public.tableau.com/views/SpotifyTableau_17717822515160/DashboardV3_?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ## Objective
 
