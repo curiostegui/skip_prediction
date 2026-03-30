@@ -19,7 +19,7 @@ To increase the complexity of the dataset, I gathered the audio features (for ex
 
 The dataset I'm using is high-dimensional (+100 columns when inlcuding TDIF toakens), and contains varied categorical and numerical data types. Both Elastic Net Logistic Regression and XGBoost were selected because they can both address this. LSTM will be used to look at temporal patterns. 
 
-- **Elastic Net:** A linear model that handles feature selection through it's L1 and L2 regularization. Any irrelevant features will have their coefficient reduced or remove altogether. A key advantage is the interpretability of the coefficients, which reveals the direction of the relationship between the features and the likelihood of a skip event.  
+- **Elastic Net:** A linear model that handles feature selection through it's L1 and L2 regularization. Any irrelevant features will have their coefficient reduced or removed altogether. A key advantage is the interpretability of the coefficients, which reveals the direction of the relationship between the features and the likelihood of a skip event.  
 
 - **XGBoost:** features an ensemble of decision trees that optimizes through gradient boosting. It is effective finding non-linear relationships between different data types. It also has built-in handling of class imbalance through scale_pos_weight.
 
