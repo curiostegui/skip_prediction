@@ -68,7 +68,8 @@ Looking at correlations among the features, Energy and Loudness have a strong po
 
 **General Preprocessing**
 
-- **Missing Information:** Due to difficulty in sourcing audio features, genres, and lyrics for the multi-lingual (English, Spanish, Portuguese) and instrumental tracks, I excluded songs with missing data. This filtering process resulted in a 58% reduction in the training set.
+- **Missing Audio Content or Lyrics:** Due to difficulty in sourcing audio features, and lyrics for the multi-lingual (English, Spanish, Portuguese) and instrumental tracks, I excluded these songs. This filtering process resulted in a 58% reduction in the training set.
+- **Missing Genre:** I kept tracks that were missing genre info and instead manually built artist-to-genre dictionaries to fill in missing genre values using domain knowledge. This addressed +200 rows of tracks without genre metadata.
 - **Clean Text:** I created and implemented functions to fix mojibake characters and remove accents. This helped standardize words and lyrics and avoid errors in artist name matching when web scraping.
 - **AZLyrics Name Standardization:** Artist names were changed to match the naming convention in the AZLyrics URL. This was addressed through a dictionary (for ex. “The Weeknd” was changed to “weeknd” and “Beyonce” to “beyonceknowles”) to map these names to the proper format on AZlyrics.
 - **Audio Feature Scaling:** Applied standard scaler to all audio features to address different scales across variables.
