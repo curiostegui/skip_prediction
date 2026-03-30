@@ -196,7 +196,7 @@ Genre consistency was broken. After 4 Urbano Latino songs with rising valence, t
 
 **Summary of LSTM Results**
 - Analysis of lyrics adds nuance to skip prediction.
-- Gwnre consistency is a strong skip predictor.
+- Genre consistency is a strong skip predictor.
 - Emotional momentum matters; Sudden whiplashes hurt experience.
 - Extreme audio outliers triggers skips.
 
