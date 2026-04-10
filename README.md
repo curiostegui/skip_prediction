@@ -4,7 +4,7 @@ This project analyzes whether song lyrics have predictive power in determining i
 
 For the full report [click here](https://github.com/curiostegui/skip_prediction/blob/main/analysis-report.md)
 
-To access the Tableau dashboard [click here](https://public.tableau.com/views/SpotifyTableau_17717822515160/DashboardV3_?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
+To access the Tableau dashboard [click here](https://public.tableau.com/app/profile/christian.uriostegui/viz/SpotifyTableau_17717822515160/DashboardV4_) 
 
 ## Objective
 
