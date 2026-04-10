@@ -1,4 +1,4 @@
-## Skip Prediction Analysis
+## Do Lyrics Matter in Songs? Leveraging XGBoost, LSTM, and Lyric Semantics to Predict Skip Behavior
 
 This project analyzes whether song lyrics have predictive power in determining if a listener will skip or complete a track. Using my listening data from Spotify, machine learning models were built and compared with two distinct features: One that uses audio characteristics alone (tempo, valence, energy, etc. and another containing and audio and lyric data.
 
